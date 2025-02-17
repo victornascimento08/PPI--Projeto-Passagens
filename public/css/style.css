@@ -1,12 +1,12 @@
-* Reset básico */
-* {
+
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
 
-/* Cores principais */
+
 :root {
     --primary-color: #2c3e50;
     --secondary-color: #3498db;
@@ -16,14 +16,14 @@
     --white: #fff;
 }
 
-/* Estilo geral do body */
+
 body {
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
 }
 
-/* Cabeçalho */
+
 header {
     background-color: var(--primary-color);
     padding: 1rem;
@@ -59,14 +59,14 @@ nav {
     color: var(--secondary-color);
 }
 
-/* Seção principal */
+
 main {
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Formulário de busca */
+
 .search-form {
     background-color: var(--white);
     padding: 1.5rem;
@@ -114,7 +114,7 @@ button:hover {
     background-color: #2980b9;
 }
 
-/* Cards de passagens */
+
 .ticket-card {
     background-color: var(--white);
     padding: 1.5rem;
@@ -157,7 +157,7 @@ button:hover {
     background-color: #c0392b;
 }
 
-/* Rodapé */
+
 footer {
     background-color: var(--primary-color);
     color: var(--white);
@@ -166,7 +166,7 @@ footer {
     margin-top: 2rem;
 }
 
-/* Responsividade para dispositivos móveis */
+ 
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
