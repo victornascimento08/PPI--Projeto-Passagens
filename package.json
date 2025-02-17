@@ -1,0 +1,33 @@
+{
+  "name": "ppi--projeto-passagens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Nascimento",
+  "license": "ISC",
+  "description": "projeto de web site com simulação de venda de passagens com uso de framework e biblioteca",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victornascimento08/PPI--Projeto-Passagens.git"
+  },
+  "keywords": [
+    "express",
+    "sessão",
+    "node.js",
+    "servidor",
+    "web",
+    "http"
+  ],
+  "bugs": {
+    "url": "https://github.com/victornascimento08/PPI--Projeto-Passagens/issues"
+  },
+  "homepage": "https://github.com/victornascimento08/PPI--Projeto-Passagens#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
