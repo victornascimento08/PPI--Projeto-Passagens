@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 * {
+=======
+{
+>>>>>>> f33dbd4b338d69d15d286728fc89abcfcdfbc073
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -59,6 +63,10 @@ nav {
     color: var(--secondary-color);
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f33dbd4b338d69d15d286728fc89abcfcdfbc073
 main {
     padding: 2rem;
     max-width: 1200px;
@@ -165,7 +173,11 @@ footer {
     margin-top: 2rem;
 }
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> f33dbd4b338d69d15d286728fc89abcfcdfbc073
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
